@@ -1,0 +1,186 @@
+body {
+    font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
+    margin-top: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    height: 90px;
+}
+
+.header-logo {
+    float: left;
+    font-size: 40px;
+    padding: 20px 40px;
+    font-family: system-ui;
+    font-style: bold;
+    letter-spacing: 10px;
+}
+
+.header-list li {
+    float: left;
+    padding: 30px 20px;
+    font-family: cursive;
+}
+
+.landing-main {
+    padding: 80px 50px;
+}
+
+.landing-introduction h1 {
+    font-size: 120px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: system-ui;
+    letter-spacing: 10px;
+}
+
+.landing-introduction span {
+    color: #fab650;
+}
+
+.landing-introduction p {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.landing-introduction img{
+    width: 300px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.about {
+    height: 400px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.heading {
+    padding: 100px 100px;
+    color: #5f5d60;
+}
+.heading h2 {
+    font-weight:  bold;
+    font-size: 30px;
+}
+
+
+.section-title{
+    font-size: 30pxpx;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.myproject-item {
+    float: left;
+    width: 25%;
+  }
+  
+.icon-item img{
+    position: relative;
+    width: 250px;
+  }
+  
+.project ul {
+    list-style: none;
+    margin: 0px;
+    padding: 60px 0px;
+    text-align: center;
+}
+.project li {
+    color: black;
+    height: 80px;
+    line-height: 80px;
+  }
+
+
+.li1 img{
+    position: relative;
+    width: 250px;
+  }
+.li2 img{
+    position: relative;
+    width: 250px;
+  }
+.li3 img{
+    position: relative;
+    width: 250px;
+  }
+  
+.flex-list {
+    display: flex;
+  }
+.flex-list li {
+    flex: auto;
+  }
+
+
+.contact-form {
+    margin-top: 200px;
+    padding-top: 30px;
+}
+
+.form{
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 150px;
+    background-color: #f7f7f7;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    resize: vertical;
+  }
+ 
+  input[type=submit] {
+    background-color: yellow;
+    padding: 20px 150px 20px 150px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+
+  .footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 50px;
+    font-family: system-ui;
+    font-style: bold;
+    letter-spacing: 8px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+    font-family: cursive;
+  }
